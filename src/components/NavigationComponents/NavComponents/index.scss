@@ -1,0 +1,14 @@
+@import "../SimpleNavbar/index.scss";
+
+@import "../DynamicSidebar/index.scss";
+
+.navComponents {
+  .sidebarAndPageContainer {
+    display: flex;
+    margin-top: $navbarHeight;
+
+    .thePage {
+      margin-left: $largeSidebarWidth;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+$largeSidebarWidth: 220px;
+$smallSidebarWidth: 80px;
+
+.dynamicSidebar {
+  position: fixed;
+
+  background-color: #18181a;
+  color: white;
+
+  height: 100%;
+  width: $largeSidebarWidth;
+
+  .sidebarDropdown {
+    padding: 2px 8px;
+
+    .dropdownTitle {
+      .toggleIcon {
+        margin-left: 5px;
+      }
+    }
+
+    .dropdownLinksContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin: 5px 0px;
+      margin-left: 30px;
+
+      .dropdownLink {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .dropdownLinksContainer__open {
+      height: auto;
+    }
+
+    .dropdownLinksContainer__closed {
+      height: 0;
+      overflow: hidden;
+    }
+  }
+}
