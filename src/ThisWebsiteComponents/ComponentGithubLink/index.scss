@@ -1,0 +1,29 @@
+.componentGithubLink {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 16px;
+  padding: 8px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: 130ms;
+
+  &:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .fa-github {
+    font-size: 26px;
+  }
+}

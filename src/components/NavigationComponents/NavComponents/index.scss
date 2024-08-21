@@ -8,6 +8,7 @@
     margin-top: $navbarHeight;
 
     .thePage {
+      width: calc(100vw - $largeSidebarWidth);
       margin-left: $largeSidebarWidth;
     }
   }

@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./index.scss";
+import ComponentGithubLink from "../../../ThisWebsiteComponents/ComponentGithubLink";
 
 const images = import.meta.glob("/public/images/*.{png,jpg,jpeg,svg,webp}", {
   eager: true,
@@ -83,6 +84,12 @@ export default function SimpleMobileSlideshow() {
           <i className="fa-solid fa-angle-right"></i>
         </div>
       </div>
+
+      <ComponentGithubLink
+        url={
+          "https://github.com/adrianlebaron/whistle-ui-components/tree/main/src/components/Slideshows/SimpleMobileSlideshow"
+        }
+      />
     </div>
   );
 }
